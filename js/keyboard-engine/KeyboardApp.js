@@ -112,18 +112,21 @@ export class KeyboardApp {
   /**
    * Keep the OS soft keyboard closed so it cannot cover the sticky board or
    * the editor caret. Focus while readonly, then drop readonly so caret /
-   * selection still work.
+   * selection still work. The timer covers the case where the field is already
+   * focused (no second focus event) after a touchstart guard.
    */
   armReadonlyGuard() {
     if (!this.editor || !this._touchTyping) return;
     this.editor.setAttribute('readonly', 'readonly');
+    clearTimeout(this._readonlyTimer);
+    this._readonlyTimer = setTimeout(() => this.disarmReadonlyGuard(), 320);
   }
 
   disarmReadonlyGuard() {
     if (!this.editor || !this._touchTyping) return;
-    requestAnimationFrame(() => {
-      this.editor.removeAttribute('readonly');
-    });
+    clearTimeout(this._readonlyTimer);
+    const unlock = () => this.editor.removeAttribute('readonly');
+    requestAnimationFrame(() => requestAnimationFrame(unlock));
   }
 
   focusEditor({ preventScroll = true } = {}) {
@@ -186,8 +189,9 @@ export class KeyboardApp {
     if (!this._touchTyping) return;
     this.tool?.classList.add('kb-tool--touch');
 
-    // Arm readonly before the browser focuses the field on touch.
+    // Arm readonly before the browser focuses the field on touch; unlock after.
     this.editor.addEventListener('touchstart', () => this.armReadonlyGuard(), { passive: true });
+    this.editor.addEventListener('touchend', () => this.disarmReadonlyGuard(), { passive: true });
     this.editor.addEventListener('focus', () => {
       this.disarmReadonlyGuard();
       this.ensureEditorVisible();
@@ -827,7 +831,8 @@ export class KeyboardApp {
     this.renderLayoutSwitcher();
     this.renderBoard();
     this.setCandidates([]);
-    this.focusEditor();
+    // Avoid stealing focus on phones (and opening an OS keyboard) on first paint.
+    if (!this._touchTyping) this.focusEditor();
   }
 
   handleCode(code) {
