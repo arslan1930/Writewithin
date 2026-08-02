@@ -1,0 +1,675 @@
+{
+  "slug": "korean-keyboard",
+  "name": "Korean",
+  "native_name": "한국어 키보드",
+  "language_code": "ko",
+  "script": "hangul",
+  "direction": "ltr",
+  "engine_mode": "hangul",
+  "font_family": null,
+  "sort_order": 1,
+  "default_layout": "standard",
+  "page": {
+    "title": "Korean Keyboard Online Free — Type 한국어 키보드 | WriteWithin",
+    "meta_description": "Type Korean (한국어 키보드) online free with a virtual keyboard. Use physical keys or on-screen layout, phonetic/IME input when available, emoji, copy, speak, practice phrases, and private local drafts. No install.",
+    "h1": "Korean Keyboard",
+    "intro": "Type 한국어 instantly in your browser. Switch layouts, use phonetic or IME input when available, insert emoji, copy your text, or practice common phrases. Hangul jamo combine into syllables as you type.",
+    "body_html": "<h2>How to type Korean online</h2>\n<p>Use the Standard 두벌식 layout: consonants and vowels combine into Hangul syllables automatically (ㄱ+ㅏ→가). Shift for double jamo (ㄲ, ㄸ, ㅃ, ㅆ, ㅉ). Esc toggles English. Sebeolsik is listed for learners exploring layouts.</p>\n<h2>Why use a Korean virtual keyboard?</h2>\n<p>Shared computers, travel laptops, and borrowed devices often lack the right input method. WriteWithin gives you a private, install-free Korean keyboard with modern mobile support, romanization hints, and text-to-speech.</p>\n<h2>Tips for Korean writers and learners</h2>\n<p>Type continuously — finals move to the next syllable when you start a new vowel (เช่น 한 + ㄱ + ㅏ → 한가). Use Practice for 안녕하세요.</p>"
+  },
+  "faqs": [
+    {
+      "question": "How does Hangul composition work here?",
+      "answer": "Each key inserts a jamo. The engine composes initial+medial(+final) into a syllable block as you type, including complex vowels like ㅘ and double finals like ㄳ."
+    },
+    {
+      "question": "Do I need to install a Korean keyboard?",
+      "answer": "No. WriteWithin’s Korean keyboard runs entirely in your browser. Type, copy, and paste into any app — nothing to install."
+    },
+    {
+      "question": "Can I use my physical keyboard for Korean?",
+      "answer": "Yes. The on-screen layout shows which physical key maps to each character. Press Esc to switch between English and Korean mode."
+    },
+    {
+      "question": "Is my text private?",
+      "answer": "Yes. Typing stays on your device. We do not upload what you type to our servers."
+    },
+    {
+      "question": "Does the Korean keyboard work on mobile?",
+      "answer": "Yes. The keyboard adapts for touch screens with large targets, emoji, and a sticky editor on phones and tablets."
+    }
+  ],
+  "phrases": [
+    {
+      "phrase": "안녕하세요",
+      "romanization": "annyeonghaseyo",
+      "meaning": "hello"
+    },
+    {
+      "phrase": "감사합니다",
+      "romanization": "gamsahamnida",
+      "meaning": "thank you"
+    },
+    {
+      "phrase": "사랑해요",
+      "romanization": "saranghaeyo",
+      "meaning": "I love you"
+    },
+    {
+      "phrase": "좋은 아침",
+      "romanization": "joeun achim",
+      "meaning": "good morning"
+    }
+  ],
+  "layouts": [
+    {
+      "code": "standard",
+      "label": "Dubeolsik",
+      "is_default": true,
+      "layout_json": {
+        "dir": "ltr",
+        "rows": [
+          [
+            {
+              "code": "Backquote",
+              "n": "`",
+              "s": "~",
+              "hint": "`"
+            },
+            {
+              "code": "Digit1",
+              "n": "1",
+              "s": "!",
+              "hint": "1"
+            },
+            {
+              "code": "Digit2",
+              "n": "2",
+              "s": "@",
+              "hint": "2"
+            },
+            {
+              "code": "Digit3",
+              "n": "3",
+              "s": "#",
+              "hint": "3"
+            },
+            {
+              "code": "Digit4",
+              "n": "4",
+              "s": "$",
+              "hint": "4"
+            },
+            {
+              "code": "Digit5",
+              "n": "5",
+              "s": "%",
+              "hint": "5"
+            },
+            {
+              "code": "Digit6",
+              "n": "6",
+              "s": "^",
+              "hint": "6"
+            },
+            {
+              "code": "Digit7",
+              "n": "7",
+              "s": "&",
+              "hint": "7"
+            },
+            {
+              "code": "Digit8",
+              "n": "8",
+              "s": "*",
+              "hint": "8"
+            },
+            {
+              "code": "Digit9",
+              "n": "9",
+              "s": "(",
+              "hint": "9"
+            },
+            {
+              "code": "Digit0",
+              "n": "0",
+              "s": ")",
+              "hint": "0"
+            },
+            {
+              "code": "Minus",
+              "n": "-",
+              "s": "_",
+              "hint": "-"
+            },
+            {
+              "code": "Equal",
+              "n": "=",
+              "s": "+",
+              "hint": "="
+            }
+          ],
+          [
+            {
+              "code": "KeyQ",
+              "n": "ㅂ",
+              "s": "ㅃ",
+              "hint": "q"
+            },
+            {
+              "code": "KeyW",
+              "n": "ㅈ",
+              "s": "ㅉ",
+              "hint": "w"
+            },
+            {
+              "code": "KeyE",
+              "n": "ㄷ",
+              "s": "ㄸ",
+              "hint": "e"
+            },
+            {
+              "code": "KeyR",
+              "n": "ㄱ",
+              "s": "ㄲ",
+              "hint": "r"
+            },
+            {
+              "code": "KeyT",
+              "n": "ㅅ",
+              "s": "ㅆ",
+              "hint": "t"
+            },
+            {
+              "code": "KeyY",
+              "n": "ㅛ",
+              "s": "ㅛ",
+              "hint": "y"
+            },
+            {
+              "code": "KeyU",
+              "n": "ㅕ",
+              "s": "ㅕ",
+              "hint": "u"
+            },
+            {
+              "code": "KeyI",
+              "n": "ㅑ",
+              "s": "ㅑ",
+              "hint": "i"
+            },
+            {
+              "code": "KeyO",
+              "n": "ㅐ",
+              "s": "ㅒ",
+              "hint": "o"
+            },
+            {
+              "code": "KeyP",
+              "n": "ㅔ",
+              "s": "ㅖ",
+              "hint": "p"
+            },
+            {
+              "code": "BracketLeft",
+              "n": "[",
+              "s": "{",
+              "hint": "["
+            },
+            {
+              "code": "BracketRight",
+              "n": "]",
+              "s": "}",
+              "hint": "]"
+            },
+            {
+              "code": "Backslash",
+              "n": "\\",
+              "s": "|",
+              "hint": "\\"
+            }
+          ],
+          [
+            {
+              "code": "KeyA",
+              "n": "ㅁ",
+              "s": "ㅁ",
+              "hint": "a"
+            },
+            {
+              "code": "KeyS",
+              "n": "ㄴ",
+              "s": "ㄴ",
+              "hint": "s"
+            },
+            {
+              "code": "KeyD",
+              "n": "ㅇ",
+              "s": "ㅇ",
+              "hint": "d"
+            },
+            {
+              "code": "KeyF",
+              "n": "ㄹ",
+              "s": "ㄹ",
+              "hint": "f"
+            },
+            {
+              "code": "KeyG",
+              "n": "ㅎ",
+              "s": "ㅎ",
+              "hint": "g"
+            },
+            {
+              "code": "KeyH",
+              "n": "ㅗ",
+              "s": "ㅗ",
+              "hint": "h"
+            },
+            {
+              "code": "KeyJ",
+              "n": "ㅓ",
+              "s": "ㅓ",
+              "hint": "j"
+            },
+            {
+              "code": "KeyK",
+              "n": "ㅏ",
+              "s": "ㅏ",
+              "hint": "k"
+            },
+            {
+              "code": "KeyL",
+              "n": "ㅣ",
+              "s": "ㅣ",
+              "hint": "l"
+            },
+            {
+              "code": "Semicolon",
+              "n": ";",
+              "s": ":",
+              "hint": ";"
+            },
+            {
+              "code": "Quote",
+              "n": "'",
+              "s": "\"",
+              "hint": "'"
+            }
+          ],
+          [
+            {
+              "code": "KeyZ",
+              "n": "ㅋ",
+              "s": "ㅋ",
+              "hint": "z"
+            },
+            {
+              "code": "KeyX",
+              "n": "ㅌ",
+              "s": "ㅌ",
+              "hint": "x"
+            },
+            {
+              "code": "KeyC",
+              "n": "ㅊ",
+              "s": "ㅊ",
+              "hint": "c"
+            },
+            {
+              "code": "KeyV",
+              "n": "ㅍ",
+              "s": "ㅍ",
+              "hint": "v"
+            },
+            {
+              "code": "KeyB",
+              "n": "ㅠ",
+              "s": "ㅠ",
+              "hint": "b"
+            },
+            {
+              "code": "KeyN",
+              "n": "ㅜ",
+              "s": "ㅜ",
+              "hint": "n"
+            },
+            {
+              "code": "KeyM",
+              "n": "ㅡ",
+              "s": "ㅡ",
+              "hint": "m"
+            },
+            {
+              "code": "Comma",
+              "n": ",",
+              "s": "<",
+              "hint": ","
+            },
+            {
+              "code": "Period",
+              "n": ".",
+              "s": ">",
+              "hint": "."
+            },
+            {
+              "code": "Slash",
+              "n": "/",
+              "s": "?",
+              "hint": "/"
+            }
+          ]
+        ]
+      },
+      "phonetic_json": null,
+      "config_json": {
+        "mode": "hangul",
+        "romanizer": "hangul"
+      }
+    },
+    {
+      "code": "sebeolsik",
+      "label": "Sebeolsik",
+      "is_default": false,
+      "layout_json": {
+        "dir": "ltr",
+        "rows": [
+          [
+            {
+              "code": "Backquote",
+              "n": "`",
+              "s": "~",
+              "hint": "`"
+            },
+            {
+              "code": "Digit1",
+              "n": "1",
+              "s": "!",
+              "hint": "1"
+            },
+            {
+              "code": "Digit2",
+              "n": "2",
+              "s": "@",
+              "hint": "2"
+            },
+            {
+              "code": "Digit3",
+              "n": "3",
+              "s": "#",
+              "hint": "3"
+            },
+            {
+              "code": "Digit4",
+              "n": "4",
+              "s": "$",
+              "hint": "4"
+            },
+            {
+              "code": "Digit5",
+              "n": "5",
+              "s": "%",
+              "hint": "5"
+            },
+            {
+              "code": "Digit6",
+              "n": "6",
+              "s": "^",
+              "hint": "6"
+            },
+            {
+              "code": "Digit7",
+              "n": "7",
+              "s": "&",
+              "hint": "7"
+            },
+            {
+              "code": "Digit8",
+              "n": "8",
+              "s": "*",
+              "hint": "8"
+            },
+            {
+              "code": "Digit9",
+              "n": "9",
+              "s": "(",
+              "hint": "9"
+            },
+            {
+              "code": "Digit0",
+              "n": "0",
+              "s": ")",
+              "hint": "0"
+            },
+            {
+              "code": "Minus",
+              "n": "-",
+              "s": "_",
+              "hint": "-"
+            },
+            {
+              "code": "Equal",
+              "n": "=",
+              "s": "+",
+              "hint": "="
+            }
+          ],
+          [
+            {
+              "code": "KeyQ",
+              "n": "ㅂ",
+              "s": "ㅃ",
+              "hint": "q"
+            },
+            {
+              "code": "KeyW",
+              "n": "ㅈ",
+              "s": "ㅉ",
+              "hint": "w"
+            },
+            {
+              "code": "KeyE",
+              "n": "ㄷ",
+              "s": "ㄸ",
+              "hint": "e"
+            },
+            {
+              "code": "KeyR",
+              "n": "ㄱ",
+              "s": "ㄲ",
+              "hint": "r"
+            },
+            {
+              "code": "KeyT",
+              "n": "ㅅ",
+              "s": "ㅆ",
+              "hint": "t"
+            },
+            {
+              "code": "KeyY",
+              "n": "ㅛ",
+              "s": "ㅛ",
+              "hint": "y"
+            },
+            {
+              "code": "KeyU",
+              "n": "ㅕ",
+              "s": "ㅕ",
+              "hint": "u"
+            },
+            {
+              "code": "KeyI",
+              "n": "ㅑ",
+              "s": "ㅑ",
+              "hint": "i"
+            },
+            {
+              "code": "KeyO",
+              "n": "ㅐ",
+              "s": "ㅒ",
+              "hint": "o"
+            },
+            {
+              "code": "KeyP",
+              "n": "ㅔ",
+              "s": "ㅖ",
+              "hint": "p"
+            },
+            {
+              "code": "BracketLeft",
+              "n": "[",
+              "s": "{",
+              "hint": "["
+            },
+            {
+              "code": "BracketRight",
+              "n": "]",
+              "s": "}",
+              "hint": "]"
+            },
+            {
+              "code": "Backslash",
+              "n": "\\",
+              "s": "|",
+              "hint": "\\"
+            }
+          ],
+          [
+            {
+              "code": "KeyA",
+              "n": "ㅁ",
+              "s": "ㅁ",
+              "hint": "a"
+            },
+            {
+              "code": "KeyS",
+              "n": "ㄴ",
+              "s": "ㄴ",
+              "hint": "s"
+            },
+            {
+              "code": "KeyD",
+              "n": "ㅇ",
+              "s": "ㅇ",
+              "hint": "d"
+            },
+            {
+              "code": "KeyF",
+              "n": "ㄹ",
+              "s": "ㄹ",
+              "hint": "f"
+            },
+            {
+              "code": "KeyG",
+              "n": "ㅎ",
+              "s": "ㅎ",
+              "hint": "g"
+            },
+            {
+              "code": "KeyH",
+              "n": "ㅗ",
+              "s": "ㅗ",
+              "hint": "h"
+            },
+            {
+              "code": "KeyJ",
+              "n": "ㅓ",
+              "s": "ㅓ",
+              "hint": "j"
+            },
+            {
+              "code": "KeyK",
+              "n": "ㅏ",
+              "s": "ㅏ",
+              "hint": "k"
+            },
+            {
+              "code": "KeyL",
+              "n": "ㅣ",
+              "s": "ㅣ",
+              "hint": "l"
+            },
+            {
+              "code": "Semicolon",
+              "n": ";",
+              "s": ":",
+              "hint": ";"
+            },
+            {
+              "code": "Quote",
+              "n": "'",
+              "s": "\"",
+              "hint": "'"
+            }
+          ],
+          [
+            {
+              "code": "KeyZ",
+              "n": "ㅋ",
+              "s": "ㅋ",
+              "hint": "z"
+            },
+            {
+              "code": "KeyX",
+              "n": "ㅌ",
+              "s": "ㅌ",
+              "hint": "x"
+            },
+            {
+              "code": "KeyC",
+              "n": "ㅊ",
+              "s": "ㅊ",
+              "hint": "c"
+            },
+            {
+              "code": "KeyV",
+              "n": "ㅍ",
+              "s": "ㅍ",
+              "hint": "v"
+            },
+            {
+              "code": "KeyB",
+              "n": "ㅠ",
+              "s": "ㅠ",
+              "hint": "b"
+            },
+            {
+              "code": "KeyN",
+              "n": "ㅜ",
+              "s": "ㅜ",
+              "hint": "n"
+            },
+            {
+              "code": "KeyM",
+              "n": "ㅡ",
+              "s": "ㅡ",
+              "hint": "m"
+            },
+            {
+              "code": "Comma",
+              "n": ",",
+              "s": "<",
+              "hint": ","
+            },
+            {
+              "code": "Period",
+              "n": ".",
+              "s": ">",
+              "hint": "."
+            },
+            {
+              "code": "Slash",
+              "n": "/",
+              "s": "?",
+              "hint": "/"
+            }
+          ]
+        ]
+      },
+      "phonetic_json": null,
+      "config_json": {
+        "mode": "hangul",
+        "romanizer": "hangul"
+      }
+    }
+  ]
+}
