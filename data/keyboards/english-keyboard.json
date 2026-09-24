@@ -1,0 +1,357 @@
+{
+  "slug": "english-keyboard",
+  "name": "English",
+  "native_name": "English keyboard",
+  "language_code": "en",
+  "script": "latin",
+  "direction": "ltr",
+  "engine_mode": "layout",
+  "font_family": null,
+  "sort_order": 1,
+  "default_layout": "us",
+  "page": {
+    "title": "English Keyboard Online Free — Type English keyboard | WriteWithin",
+    "meta_description": "Type English (English keyboard) online free with a virtual keyboard. Use physical keys or on-screen layout, phonetic/IME input when available, emoji, copy, speak, practice phrases, and private local drafts. No install.",
+    "h1": "English Keyboard",
+    "intro": "Type English instantly in your browser. Switch layouts, use phonetic or IME input when available, insert emoji, copy your text, or practice common phrases. Includes the Apple-style emoji panel shared by every WriteWithin keyboard.",
+    "body_html": "<h2>How to type English online</h2>\n<p>Type on the US QWERTY board, or open <strong>😊 Emoji</strong> for Smileys, Flags, and more (same categories as iPhone). Esc on this page simply refreshes English mode; on other language pages Esc switches English ↔ that language.</p>\n<h2>Why use a English virtual keyboard?</h2>\n<p>A clean English board plus emoji is handy on locked-down devices — and it matches the layout language learners see when they toggle Esc on other WriteWithin keyboards.</p>\n<h2>Tips for English writers and learners</h2>\n<p>Use this keyboard to draft in English, then switch languages from the hub. Emoji, copy, speak, and save work the same everywhere.</p>"
+  },
+  "faqs": [
+    {
+      "question": "Where is the emoji keyboard?",
+      "answer": "Click 😊 Emoji in the toolbar or the emoji key on the bottom row. Browse Apple-style categories, search, and set a skin tone."
+    },
+    {
+      "question": "Do I need to install a English keyboard?",
+      "answer": "No. WriteWithin’s English keyboard runs entirely in your browser. Type, copy, and paste into any app — nothing to install."
+    },
+    {
+      "question": "Can I use my physical keyboard for English?",
+      "answer": "Yes. The on-screen layout shows which physical key maps to each character. Press Esc to switch between English and English mode."
+    },
+    {
+      "question": "Is my text private?",
+      "answer": "Yes. Typing stays on your device. We do not upload what you type to our servers."
+    },
+    {
+      "question": "Does the English keyboard work on mobile?",
+      "answer": "Yes. The keyboard adapts for touch screens with large targets, emoji, and a sticky editor on phones and tablets."
+    }
+  ],
+  "phrases": [
+    {
+      "phrase": "hello",
+      "romanization": "hello",
+      "meaning": "hello"
+    },
+    {
+      "phrase": "thank you",
+      "romanization": "thank you",
+      "meaning": "thank you"
+    }
+  ],
+  "layouts": [
+    {
+      "code": "us",
+      "label": "US QWERTY",
+      "is_default": true,
+      "layout_json": {
+        "dir": "ltr",
+        "rows": [
+          [
+            {
+              "code": "Backquote",
+              "n": "`",
+              "s": "~",
+              "hint": "`"
+            },
+            {
+              "code": "Digit1",
+              "n": "1",
+              "s": "!",
+              "hint": "1"
+            },
+            {
+              "code": "Digit2",
+              "n": "2",
+              "s": "@",
+              "hint": "2"
+            },
+            {
+              "code": "Digit3",
+              "n": "3",
+              "s": "#",
+              "hint": "3"
+            },
+            {
+              "code": "Digit4",
+              "n": "4",
+              "s": "$",
+              "hint": "4"
+            },
+            {
+              "code": "Digit5",
+              "n": "5",
+              "s": "%",
+              "hint": "5"
+            },
+            {
+              "code": "Digit6",
+              "n": "6",
+              "s": "^",
+              "hint": "6"
+            },
+            {
+              "code": "Digit7",
+              "n": "7",
+              "s": "&",
+              "hint": "7"
+            },
+            {
+              "code": "Digit8",
+              "n": "8",
+              "s": "*",
+              "hint": "8"
+            },
+            {
+              "code": "Digit9",
+              "n": "9",
+              "s": "(",
+              "hint": "9"
+            },
+            {
+              "code": "Digit0",
+              "n": "0",
+              "s": ")",
+              "hint": "0"
+            },
+            {
+              "code": "Minus",
+              "n": "-",
+              "s": "_",
+              "hint": "-"
+            },
+            {
+              "code": "Equal",
+              "n": "=",
+              "s": "+",
+              "hint": "="
+            }
+          ],
+          [
+            {
+              "code": "KeyQ",
+              "n": "q",
+              "s": "Q",
+              "hint": "q"
+            },
+            {
+              "code": "KeyW",
+              "n": "w",
+              "s": "W",
+              "hint": "w"
+            },
+            {
+              "code": "KeyE",
+              "n": "e",
+              "s": "E",
+              "hint": "e"
+            },
+            {
+              "code": "KeyR",
+              "n": "r",
+              "s": "R",
+              "hint": "r"
+            },
+            {
+              "code": "KeyT",
+              "n": "t",
+              "s": "T",
+              "hint": "t"
+            },
+            {
+              "code": "KeyY",
+              "n": "y",
+              "s": "Y",
+              "hint": "y"
+            },
+            {
+              "code": "KeyU",
+              "n": "u",
+              "s": "U",
+              "hint": "u"
+            },
+            {
+              "code": "KeyI",
+              "n": "i",
+              "s": "I",
+              "hint": "i"
+            },
+            {
+              "code": "KeyO",
+              "n": "o",
+              "s": "O",
+              "hint": "o"
+            },
+            {
+              "code": "KeyP",
+              "n": "p",
+              "s": "P",
+              "hint": "p"
+            },
+            {
+              "code": "BracketLeft",
+              "n": "[",
+              "s": "{",
+              "hint": "["
+            },
+            {
+              "code": "BracketRight",
+              "n": "]",
+              "s": "}",
+              "hint": "]"
+            },
+            {
+              "code": "Backslash",
+              "n": "\\",
+              "s": "|",
+              "hint": "\\"
+            }
+          ],
+          [
+            {
+              "code": "KeyA",
+              "n": "a",
+              "s": "A",
+              "hint": "a"
+            },
+            {
+              "code": "KeyS",
+              "n": "s",
+              "s": "S",
+              "hint": "s"
+            },
+            {
+              "code": "KeyD",
+              "n": "d",
+              "s": "D",
+              "hint": "d"
+            },
+            {
+              "code": "KeyF",
+              "n": "f",
+              "s": "F",
+              "hint": "f"
+            },
+            {
+              "code": "KeyG",
+              "n": "g",
+              "s": "G",
+              "hint": "g"
+            },
+            {
+              "code": "KeyH",
+              "n": "h",
+              "s": "H",
+              "hint": "h"
+            },
+            {
+              "code": "KeyJ",
+              "n": "j",
+              "s": "J",
+              "hint": "j"
+            },
+            {
+              "code": "KeyK",
+              "n": "k",
+              "s": "K",
+              "hint": "k"
+            },
+            {
+              "code": "KeyL",
+              "n": "l",
+              "s": "L",
+              "hint": "l"
+            },
+            {
+              "code": "Semicolon",
+              "n": ";",
+              "s": ":",
+              "hint": ";"
+            },
+            {
+              "code": "Quote",
+              "n": "'",
+              "s": "\"",
+              "hint": "'"
+            }
+          ],
+          [
+            {
+              "code": "KeyZ",
+              "n": "z",
+              "s": "Z",
+              "hint": "z"
+            },
+            {
+              "code": "KeyX",
+              "n": "x",
+              "s": "X",
+              "hint": "x"
+            },
+            {
+              "code": "KeyC",
+              "n": "c",
+              "s": "C",
+              "hint": "c"
+            },
+            {
+              "code": "KeyV",
+              "n": "v",
+              "s": "V",
+              "hint": "v"
+            },
+            {
+              "code": "KeyB",
+              "n": "b",
+              "s": "B",
+              "hint": "b"
+            },
+            {
+              "code": "KeyN",
+              "n": "n",
+              "s": "N",
+              "hint": "n"
+            },
+            {
+              "code": "KeyM",
+              "n": "m",
+              "s": "M",
+              "hint": "m"
+            },
+            {
+              "code": "Comma",
+              "n": ",",
+              "s": "<",
+              "hint": ","
+            },
+            {
+              "code": "Period",
+              "n": ".",
+              "s": ">",
+              "hint": "."
+            },
+            {
+              "code": "Slash",
+              "n": "/",
+              "s": "?",
+              "hint": "/"
+            }
+          ]
+        ]
+      },
+      "phonetic_json": null,
+      "config_json": []
+    }
+  ]
+}
